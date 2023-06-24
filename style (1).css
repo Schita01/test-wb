@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Manrope,sans-serif;
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.footer2{
+    display: none;
+}
+.footer{
+    width: 100%;
+    background-color: #101010;
+    margin-top: 74px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    margin: 0 4rem;
+}
+.footer-group1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.footer-image{
+    width: 10rem;
+    height: 2.64rem;
+    margin-bottom: 3.6rem;
+}
+.footer-text{
+    color: gray;
+    width: 400px;
+    text-align: start;
+    margin-bottom: 50px;
+    line-height: 23px;
+}
+.footer-copyright{
+    color: gray;
+    font-weight: 600;
+    padding-bottom: 34px;
+}
+.footer-group2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 100px;
+}
+.footer-links{
+    color: #fff;
+    display: flex;
+    gap: 1.3rem;
+    list-style: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.footer-item{
+    cursor: pointer;
+}
+.footer-item:hover{
+    color: #d97e4a;
+    transition: .3s;
+}
+.linkedin-color:hover{
+    color: #d97e4a;
+    transition: .3s;
+}
+.footer-icons{
+    color: #fff;
+    font-size: 30px;
+    gap: 35px;
+    display: flex;
+}
+
+      /* ჰეადფოუნის გვერდის სტილები */
+
+.Headphones{
+    background-color: #000;
+    width: 100%;
+    height: 300px;
+}
+.Head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#Head-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 4.4rem;
+    color: white;
+}
+
+
+.Headphones-images-main{
+    width: 100%;
+    height: auto;
+    margin-top: 16rem;
+}
+.Headphones-images-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Headphones-img-div-1{
+    width: 441.800px;
+}
+.Headphones-group-1{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    margin-bottom: 10rem;
+
+}
+.Headphones-img-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 381.8px;
+}
+.Headphones-img-1{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+#Headphones-title{
+    font-size: 3rem;
+    margin-bottom: 2.1999999999999993rem;
+    font-weight: 550;
+}
+#Headphones-description{
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: .75;
+}
+
+.selection-info-main{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+}
+.selection-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.selection-texts{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+.selection-div-image{
+    width: 400px;
+    height: 550px;
+    display: flex;
+}
+.selection-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+.selection-title{
+    margin-bottom: 3.2rem;
+    font-size: 2rem;
+    width: 9cm;
+}
+.selection-description{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8rem;
+    opacity: .75;
+}
+#selection-title-text{
+    color: #d97e4a;
+}
+
+
+
+
+@media screen and (max-width:1025.60px) {
+    *{
+        text-align: center;
+    }
+.Headphones-group-1 {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 8rem; 
+}
+.Headphones-img-texts{
+    padding-top: 40px;
+}
+.Headphones-group-2{
+    flex-direction: column-reverse;
+}
+.selection-info-main{
+    height: 112vh;
+}
+.selection-info-container{
+    flex-direction: column-reverse;
+}
+.selection-texts{
+    align-items: center;
+}
+
+
+}
+
+@media screen and (max-width:530px) {
+    .selection-texts{
+        width: 100%;
+    }
+    .Headphones-img-texts{
+        width: 100%;
+    }
+    .Headphones-img-div-1{
+        width: 300px;
+    }
+    #Headphones-title{
+        font-size: 2rem;
+        width: 228px;
+    }
+    .selection-info-main{
+        height: 87vh;
+    }
+    .selection-div-image{
+        width: 300px;
+        height: 304px;
+    }
+    .selection-title{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .selection-info-container{
+        gap: 43px;
+    }
+    .selection-description{
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Headphones-img-div-1{
+        width: 250px;
+    }
+    .selection-div-image{
+        width: 250px;
+        height: 250px;
+    }
+    #Headphones-title{
+        font-size: 25px;
+    }
+    .Headphones-img-texts{
+        padding-top: 20px;
+    }
+    #Headphones-description{
+        font-size: 13px;
+    }
+    .Headphones-group-1 {
+        margin-bottom: 6rem; 
+    }
+    #Head-title{
+        font-size: 1.8rem;
+    }
+}
+
+        /* სპიკერის გვერდის სტილები */
+
+        .Speakers{
+            background-color: #000;
+            width: 100%;
+            height: 300px;
+        }
+        .speaker-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        #speaker-title{
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            line-height: 4.4rem;
+            color: white;
+        }
+
+        .Speakers-images-main{
+            width: 100%;
+            height: auto;
+            margin-top: 16rem;
+        }
+        .Speakers-images-container{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .Speakers-img-div-1{
+            width: 441.800px;
+        }
+        .Speakers-group-1{
+            display: flex;
+            justify-content: center;
+            gap: 9rem;
+            margin-bottom: 10rem;
+        
+        }
+        .Speakers-img-texts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 381.8px;
+        }
+        .Speakers-img-1{
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        #Speakers-title{
+            font-size: 3rem;
+            margin-bottom: 2.1999999999999993rem;
+            font-weight: 550;
+        }
+        #Speakers-description{
+            width: 100%;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            opacity: .75;
+        }
+
+        .Speakers-info-main{
+            width: 100%;
+            height: 73vh;
+            display: flex;
+        }
+        .Speakers-info-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 88px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .Speakers-texts{
+            display: flex;
+            flex-direction: column;
+            width: 30rem;
+        }
+        .Speakers-div-image{
+            width: 400px;
+            height: 550px;
+            display: flex;
+        }
+        .Speakers-image{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        
+        }
+        .Speakers-title{
+            margin-bottom: 3.2rem;
+            font-size: 2rem;
+            width: 9cm;
+        }
+        .Speakers-description{
+            width: 100%;
+            font-size: 16px;
+            line-height: 1.8rem;
+            opacity: .75;
+        }
+        #Speakers-title-text{
+            color: #d97e4a;
+        }
+        
+        
+        
+        
+        @media screen and (max-width:1025.60px) {
+            *{
+                text-align: center;
+            }
+        .Speakers-group-1 {
+            flex-direction: column;
+            gap: 0px;
+            align-items: center;
+            margin-bottom: 8rem; 
+        }
+        .Speakers-img-texts{
+            padding-top: 40px;
+        }
+        .Speakers-group-2{
+            flex-direction: column-reverse; 
+        }
+        .Speakers-info-main{
+            height: 112vh;
+        }
+        .Speakers-info-container{
+            flex-direction: column-reverse;
+        }
+        .Speakers-texts{
+            align-items: center;
+        }
+        
+        
+        }
+        @media screen and (max-width:935px) {
+
+        }
+        
+        @media screen and (max-width:530px) {
+            .Speakers-texts{
+                width: 100%;
+            }
+            .Speakers-img-texts{
+                width: 100%;
+            }
+            .Speakers-img-div-1{
+                width: 300px;
+            }
+            #Speakers-title{
+                font-size: 2rem;
+                width: 228px;
+            }
+            .Speakers-info-main{
+                height: 87vh;
+            }
+            .Speakers-div-image{
+                width: 300px;
+                height: 304px;
+            }
+            .Speakers-title{
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            .Speakers-info-container{
+                gap: 43px;
+            }
+            .Speakers-description{
+                font-size: 14px;
+                line-height: 1.4rem;
+            }
+        }
+        
+        @media screen and (max-width:400px) {
+            .Speakers-img-div-1{
+                width: 250px;
+            }
+            .Speakers-div-image{
+                width: 250px;
+                height: 250px;
+            }
+            #Speakers-title{
+                font-size: 25px;
+            }
+            .Speakers-img-texts{
+                padding-top: 20px;
+            }
+            #Speakers-description{
+                font-size: 13px;
+            }
+            .Speakers-group-1 {
+                margin-bottom: 6rem; 
+            }
+            #Speakers-title{
+                font-size: 1.8rem;
+            }
+        }
+
+
+                /* ყურსასმენის სტილები */
+
+
+.Earphones{
+    background-color: #000;
+    width: 100%;
+    height: 300px;
+}
+.Earphone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#Earphone-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 4.4rem;
+    color: white;
+}
+
+
+.Earphone-images-main{
+    width: 100%;
+    height: auto;
+    margin-top: 16rem;
+}
+.Earphone-images-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Earphone-img-div-1{
+    width: 441.800px;
+}
+.Earphone-group-1{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    margin-bottom: 10rem;
+
+}
+.Earphone-img-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 381.8px;
+}
+.Earphone-img-1{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+#Earphones-title{
+    font-size: 3rem;
+    margin-bottom: 2.1999999999999993rem;
+    font-weight: 550;
+}
+#Earphone-description{
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: .75;
+}
+
+.Earphone-info-main{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+}
+.Earphone-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Earphone-texts{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+.Earphone-div-image{
+    width: 400px;
+    height: 550px;
+    display: flex;
+}
+.Earphone-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+.Earphone-title{
+    margin-bottom: 3.2rem;
+    font-size: 2rem;
+    width: 9cm;
+}
+.Earphone-description{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8rem;
+    opacity: .75;
+}
+#Earphone-title-text{
+    color: #d97e4a;
+}
+
+
+
+
+@media screen and (max-width:1025.60px) {
+    *{
+        text-align: center;
+    }
+.Earphone-group-1 {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 8rem; 
+}
+.Earphone-img-texts{
+    padding-top: 40px;
+}
+.Earphone-group-2{
+    flex-direction: column-reverse; 
+}
+.Earphone-info-main{
+    height: 112vh;
+}
+.Earphone-info-container{
+    flex-direction: column-reverse;
+}
+.Earphone-texts{
+    align-items: center;
+}
+.footer{
+    display: none;
+}
+.footer2{
+    display: block;
+    width: 100%;
+    background-color: #101010;
+    margin-top: 74px;
+}
+.footer-links{
+    padding-bottom: 34px;
+}
+.footer-text{
+    width: 100%;
+}
+.footer-container{
+    padding-bottom: 2.5rem;
+}
+.footer-group2{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-copyright{
+    padding: 0;
+}
+
+}
+
+@media screen and (max-width:530px) {
+    .Earphone-texts{
+        width: 100%;
+    }
+    .Earphone-img-texts{
+        width: 100%;
+    }
+    .Earphone-img-div-1{
+        width: 300px;
+    }
+    #Earphone-title{
+        font-size: 2rem;
+        width: 228px;
+    }
+    .Earphone-info-main{
+        height: 87vh;
+    }
+    .Earphone-div-image{
+        width: 300px;
+        height: 304px;
+    }
+    .Earphone-title{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .Earphone-info-container{
+        gap: 43px;
+    }
+    .Earphone-description{
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Earphone-img-div-1{
+        width: 250px;
+    }
+    .Earphone-div-image{
+        width: 250px;
+        height: 250px;
+    }
+    #Earphone-title{
+        font-size: 25px;
+    }
+    .Earphone-img-texts{
+        padding-top: 20px;
+    }
+    #Earphone-description{
+        font-size: 13px;
+    }
+    .Earphone-group-1 {
+        margin-bottom: 6rem; 
+    }
+    #Earphone-title{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:620px) {
+   .footer-links{
+        flex-direction: column;
+    }
+    .footer-group1{
+        align-items: center;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footer-group2{
+        flex-direction: column;
+        gap: 26px;
+    }
+    .footer-icons{
+        gap: 30px;
+    }
+    .footer-copyright{
+        font-size: 14px;
+    }
+}   
